@@ -1,0 +1,10 @@
+.DS_Store
+.gradle
+local.properties
+*.iml
+*.iws
+.idea/
+!.idea/copyright
+!.idea/scopes
+out/
+gen/
