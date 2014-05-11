@@ -99,10 +99,10 @@ public class PasswordView extends FrameLayout{
         mBtnShowPassword = new ImageButton(context);
         mBtnShowPassword.setImageDrawable(mSecuredPasswordDrawable);
         mBtnShowPassword.setEnabled(false);
-        mBtnShowPassword.setMaxWidth(styledData.getInt(R.styleable.PasswordView_maxWidth, intImageSide));
-        mBtnShowPassword.setMinimumWidth(styledData.getInt(R.styleable.PasswordView_minWidth, intImageSide));
-        mBtnShowPassword.setMaxHeight(styledData.getInt(R.styleable.PasswordView_maxHeight, intImageSide));
-        mBtnShowPassword.setMinimumHeight(styledData.getInt(R.styleable.PasswordView_minHeight, intImageSide));
+        mBtnShowPassword.setMaxWidth(styledData.getInt(R.styleable.PasswordView_maxButtonWidth, intImageSide));
+        mBtnShowPassword.setMinimumWidth(styledData.getInt(R.styleable.PasswordView_minButtonWidth, intImageSide));
+        mBtnShowPassword.setMaxHeight(styledData.getInt(R.styleable.PasswordView_maxButtonHeight, intImageSide));
+        mBtnShowPassword.setMinimumHeight(styledData.getInt(R.styleable.PasswordView_minButtonHeight, intImageSide));
 
         //sets background if user defined it
         if(null != mBackgroundDrawable)
