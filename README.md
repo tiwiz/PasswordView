@@ -44,4 +44,4 @@ Download Sample App
 ---
 [![Download Sample App](https://developer.android.com/images/brand/en_generic_rgb_wo_60.png)](https://play.google.com/store/apps/details?id=tiwiz.passwordview.sample)
 
-[1]:http://www.iwasjocking.net
+[1]:https://github.com/tiwiz/PasswordView/wiki/Screenshot
