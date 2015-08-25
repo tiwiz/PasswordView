@@ -8,3 +8,4 @@ local.properties
 !.idea/scopes
 out/
 gen/
+build
